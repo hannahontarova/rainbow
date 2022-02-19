@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+button:not(:last-child){
+    margin-right: 2vh;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: 1em 2em;
+}
+.red-button{
+    background-color: red;
+}
+.orange-button{
+    background-color: orange;
+}
+.yellow-button{
+    background-color: yellow;
+}
+.green-button{
+    background-color: green;
+}
+.blue-button{
+    background-color: blue;
+}
+.darkBlue-button{
+    background-color: darkblue;
+}
+.purple-button{
+    background-color: purple;
+}
+.remove{
+    display: none;
+}
+.img{
+    width: 25vw;
+    height: 25vh;
+}
